@@ -1,0 +1,77 @@
+{
+  "name": "CRM Dominus - Gestão de Vendas com WhatsApp",
+  "short_name": "CRM Dominus",
+  "description": "Sistema CRM inteligente com integração WhatsApp, IA e automações",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-192x192-CNhPpjCPHMWZgNXPMCUaVx.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-512x512-9pnSVVGTx5Nc5ZwJwJUFtr.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-192x192-CNhPpjCPHMWZgNXPMCUaVx.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-512x512-9pnSVVGTx5Nc5ZwJwJUFtr.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Chat",
+      "short_name": "Chat",
+      "description": "Abrir conversa com clientes",
+      "url": "/?tab=chat",
+      "icons": [
+        {
+          "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-192x192-CNhPpjCPHMWZgNXPMCUaVx.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "short_name": "Clientes",
+      "description": "Gerenciar clientes",
+      "url": "/?tab=customers",
+      "icons": [
+        {
+          "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-192x192-CNhPpjCPHMWZgNXPMCUaVx.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Funil de Vendas",
+      "short_name": "Funil",
+      "description": "Visualizar funil de vendas",
+      "url": "/?tab=funnel",
+      "icons": [
+        {
+          "src": "https://d2xsxph8kpxj0f.cloudfront.net/310519663375301912/CWidhrEBWGWTj7pwZaj5JN/icon-192x192-CNhPpjCPHMWZgNXPMCUaVx.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

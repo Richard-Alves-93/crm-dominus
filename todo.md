@@ -125,3 +125,28 @@
 - [ ] Implementar drag-and-drop no funil de vendas
 - [ ] Adicionar busca e filtros avançados
 - [ ] Implementar notificações visuais de ações
+
+
+## Fase 17: Design Responsivo Mobile-First
+- [x] Tornar sidebar responsivo (collapse em mobile)
+- [x] Adaptar layout do dashboard para mobile
+- [x] Adaptar layout do chat para mobile
+- [x] Adaptar layout de clientes para mobile
+- [x] Adaptar layout do funil para mobile
+- [x] Adaptar layout de regras para mobile
+- [ ] Testar em diferentes tamanhos de tela (320px, 768px, 1024px)
+
+## Fase 18: PWA (Progressive Web App)
+- [x] Criar manifest.json com metadados da aplicação
+- [x] Adicionar ícones para diferentes tamanhos (192x192, 512x512)
+- [x] Implementar Service Worker para cache offline
+- [x] Configurar tema de cores para mobile
+- [ ] Adicionar splash screen
+- [ ] Testar instalação em dispositivos reais
+
+## Fase 19: Sincronização com GitHub
+- [ ] Configurar script de push automático para GitHub
+- [ ] Adicionar atribuição de direitos autorais (Richard Alves)
+- [ ] Adicionar link WhatsApp no footer
+- [ ] Testar sincronização após cada alteração
+- [ ] Documentar processo de deploy

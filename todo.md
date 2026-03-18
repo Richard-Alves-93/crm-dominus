@@ -78,3 +78,50 @@
 - [ ] Testar AI Engine
 - [ ] Publicar no GitHub
 - [ ] Documentar API e uso do sistema
+
+
+## Fase 11: Rule Engine - Palavras-chave e Respostas Automáticas
+- [x] Implementar motor de regras com palavras-chave (comprar, suporte, boleto, etc)
+- [x] Criar sistema de configuração de regras no backend
+- [x] Implementar interface de gerenciamento de regras no frontend
+- [ ] Testar roteamento de mensagens para Rule Engine
+
+## Fase 12: Flow Engine - Motor de Execução de Fluxos
+- [ ] Implementar interpretador de fluxos salvos no banco
+- [ ] Suportar nó de Mensagem (enviar texto/mídia)
+- [ ] Suportar nó de Condição (desvios lógicos)
+- [ ] Suportar nó de Esperar Resposta (pausar fluxo)
+- [ ] Suportar nó de IA (chamar Groq dentro do fluxo)
+- [ ] Suportar nó de Executar Ação (chamar Action Engine)
+- [ ] Implementar interface visual de construtor de fluxos no frontend
+
+## Fase 13: Action Engine - Execução de Ações
+- [ ] Implementar ação: Criar pedido
+- [ ] Implementar ação: Atualizar funil
+- [ ] Implementar ação: Cadastrar cliente
+- [ ] Implementar ação: Agendar recompra
+- [ ] Implementar ação: Notificar atendente
+- [ ] Implementar ação: Enviar mensagem
+- [ ] Criar sistema de fila para processamento de ações
+
+## Fase 14: Recompra Automática
+- [ ] Implementar cálculo de data de próxima recompra
+- [ ] Criar cron job para verificar datas de recompra
+- [ ] Implementar geração automática de mensagens de lembrete
+- [ ] Implementar envio automático de mensagens via WhatsApp
+- [ ] Adicionar visualização de recompras no painel
+
+## Fase 15: WebSocket e Tempo Real
+- [ ] Implementar Socket.io para comunicação em tempo real
+- [ ] Disparar eventos quando mensagem chegar
+- [ ] Disparar eventos quando ação for executada
+- [ ] Atualizar painel CRM em tempo real sem refresh
+- [ ] Implementar indicadores de status (online/offline)
+
+## Fase 16: Melhorias de UX
+- [ ] Implementar modal de cadastro/edição de clientes
+- [ ] Implementar modal de cadastro/edição de leads
+- [ ] Adicionar validação de dados em formulários
+- [ ] Implementar drag-and-drop no funil de vendas
+- [ ] Adicionar busca e filtros avançados
+- [ ] Implementar notificações visuais de ações

@@ -310,3 +310,30 @@ export const webhookLogs = mysqlTable(
 
 export type WebhookLog = typeof webhookLogs.$inferSelect;
 export type InsertWebhookLog = typeof webhookLogs.$inferInsert;
+
+// ============================================
+// RULE ENGINE
+// ============================================
+
+export const rules = mysqlTable(
+  "rules",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    name: varchar("name", { length: 255 }).notNull(),
+    keywords: json("keywords").notNull(),
+    response: text("response").notNull(),
+    action: varchar("action", { length: 100 }),
+    active: boolean("active").default(true).notNull(),
+    priority: int("priority").default(0),
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+    updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+  },
+  (table) => ({
+    userIdIdx: index("rulesUserIdIdx").on(table.userId),
+    activeIdx: index("rulesActiveIdx").on(table.active),
+  })
+);
+
+export type Rule = typeof rules.$inferSelect;
+export type InsertRule = typeof rules.$inferInsert;

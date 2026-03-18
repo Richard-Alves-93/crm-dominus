@@ -10,6 +10,7 @@ import { repurchaseRouter } from "./routers/repurchase";
 import { aiRouter } from "./routers/ai";
 import { toolsRouter } from "./routers/tools";
 import { webhookRouter } from "./routers/webhook";
+import { rulesRouter } from "./routers/rules";
 
 export const appRouter = router({
   system: systemRouter,
@@ -31,6 +32,7 @@ export const appRouter = router({
   ai: aiRouter,
   tools: toolsRouter,
   webhook: webhookRouter,
+  rules: rulesRouter,
 });
 
 

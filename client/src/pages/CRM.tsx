@@ -11,6 +11,7 @@ import WorkflowsPage from "./crm/WorkflowsPage";
 import DashboardPage from "./crm/DashboardPage";
 import SettingsPage from "./crm/SettingsPage";
 import ToolsSettingsPage from "./crm/ToolsSettingsPage";
+import RulesPage from "./crm/RulesPage";
 
 export default function CRM() {
   const { user, logout } = useAuth();
@@ -61,6 +62,12 @@ export default function CRM() {
             onClick={() => setActiveTab("workflows")}
           />
           <SidebarItem
+            icon={<Zap className="w-5 h-5" />}
+            label="Regras"
+            active={activeTab === "rules"}
+            onClick={() => setActiveTab("rules")}
+          />
+          <SidebarItem
             icon={<Settings className="w-5 h-5" />}
             label="Configurações"
             active={activeTab === "settings"}
@@ -86,6 +93,7 @@ export default function CRM() {
         {activeTab === "customers" && <CustomersPage />}
         {activeTab === "funnel" && <FunnelPage />}
         {activeTab === "workflows" && <WorkflowsPage />}
+        {activeTab === "rules" && <RulesPage />}
         {activeTab === "settings" && <SettingsPage />}
         {activeTab === "tools" && <ToolsSettingsPage />}
       </div>

@@ -10,6 +10,7 @@ import FunnelPage from "./crm/FunnelPage";
 import WorkflowsPage from "./crm/WorkflowsPage";
 import DashboardPage from "./crm/DashboardPage";
 import SettingsPage from "./crm/SettingsPage";
+import ToolsSettingsPage from "./crm/ToolsSettingsPage";
 
 export default function CRM() {
   const { user, logout } = useAuth();
@@ -86,6 +87,7 @@ export default function CRM() {
         {activeTab === "funnel" && <FunnelPage />}
         {activeTab === "workflows" && <WorkflowsPage />}
         {activeTab === "settings" && <SettingsPage />}
+        {activeTab === "tools" && <ToolsSettingsPage />}
       </div>
     </div>
   );

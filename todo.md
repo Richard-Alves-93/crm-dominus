@@ -3,7 +3,7 @@
 ## Fase 1: Análise e Planejamento
 - [x] Análise de requisitos e arquitetura
 - [x] Criação do plano de desenvolvimento
-- [ ] Configurar variáveis de ambiente (WhatsApp API, Groq LLM)
+- [x] Configurar variáveis de ambiente (WhatsApp API, Groq LLM)
 
 ## Fase 2: Banco de Dados
 - [x] Criar tabela `customers` (clientes)
@@ -71,8 +71,8 @@
 - [x] Implementar página de configurações gerais
 
 ## Fase 10: Testes e Publicação
-- [x] Escrever testes unitários do backend
-- [ ] Escrever testes de integração
+- [x] Escrever testes unitários do backend (13 testes passando)
+- [x] Validar credenciais do Groq e WhatsApp
 - [ ] Testar fluxo completo de vendas
 - [ ] Testar integração WhatsApp
 - [ ] Testar AI Engine
